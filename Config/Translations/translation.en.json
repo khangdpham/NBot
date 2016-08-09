@@ -225,6 +225,10 @@
       "Value": "NEW"
     },
     {
+      "Key": "logEntrySoftBan",
+      "Value": "SOFTBAN"
+    },
+    {
       "Key": "loggingIn",
       "Value": "Logging in using {0}"
     },
@@ -334,7 +338,7 @@
     },
     {
       "Key": "currentMiscItemInv",
-      "Value": "Berrys: {0} | Incense: {1} | LuckyEggs: {2} | Lures: {3}"
+      "Value": "Berries: {0} | Incense: {1} | LuckyEggs: {2} | Lures: {3}"
     },
     {
       "Key": "maxItemsCombinedOverMaxItemStorage",
@@ -426,15 +430,15 @@
     },
     {
       "Key": "profileStatsTemplateString",
-      "Value": "----- LVL {0} | {1} ----- \n Experience: {2}/{3} \n Pokemons catched: {4} \n Pokemons deployed: {5} \n Pokestops visited: {6} \n Eggs hatched: {6} \n Pokemons envolved: {7} \n Pokedex entries: {8} \n KM walked: {9}"
+      "Value": "----- LVL {0} | {1} ----- \n Experience: {2}/{3} \n Pokemons caught: {4} \n Pokemons deployed: {5} \n Pokestops visited: {6} \n Eggs hatched: {7} \n Pokemons envolved: {8} \n Pokedex entries: {9} \n KM walked: {10}  \n Pokemons: {11}/{12}"
     },
     {
       "Key": "showPokeTemplate",
-      "Value": "\n CP {0} | Name: {1}"
+      "Value": "\n CP: {0} | IV: {1}% | Name: {2}"
     },
     {
       "Key": "helpTemplate",
-      "Value": "Commands: \n \n /top <amount> - Shows you top Pokemons. \n /all - Shows you all Pokemons. \n /profile - Shows you profile. \n /loc - Shows you location. \n /items - Shows your items."
+      "Value": "Commands: \n \n /top <cp/iv> <amount> - Shows you top Pokemons. \n /all <cp/iv> - Shows you all Pokemons. \n /profile - Shows you profile. \n /loc - Shows you location. \n /items - Shows your items. \n /status - Shows you the Status of the Bot. "
     },
     {
       "Key": "statsXpTemplateString",
@@ -455,6 +459,10 @@
     {
       "Key": "googleError",
       "Value": "Make sure you have entered the right Email & Password."
+    },
+    {
+      "Key": "googleOffline",
+      "Value": "Google servers are probably down, Please be patient and start the bot later."
     },
     {
       "Key": "missingCredentialsGoogle",
@@ -534,7 +542,7 @@
     },
     {
       "Key": "pkmPotentialEvolveCount",
-      "Value": "[Evolves] Potential Evolves: {0}"
+      "Value": "Potential Evolutions: {0}"
     },
     {
       "Key": "pkmNotEnoughRessources",
@@ -635,6 +643,10 @@
     {
       "Key": "firstStartSetupDefaultLongConfirm",
       "Value": "Longitude accepted: {0}"
+    },
+    {
+      "Key": "softBanBypassed",
+      "Value": "Successfully bypassed!"
     },
     {
       "Key": "firstStartSetupCompleted",
