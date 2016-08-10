@@ -1,112 +1,116 @@
-{
+﻿{
   "TranslationStrings": [
     {
       "Key": "pokeball",
-      "Value": "Poké Ball"
+      "Value": "PokeBall"
     },
     {
       "Key": "greatPokeball",
-      "Value": "Great Ball"
+      "Value": "GreatBall"
     },
     {
       "Key": "ultraPokeball",
-      "Value": "Ultra Ball"
+      "Value": "UltraBall"
     },
     {
       "Key": "masterPokeball",
-      "Value": "Master Ball"
+      "Value": "MasterBall"
     },
     {
       "Key": "wrongAuthType",
-      "Value": "\"auth.json\" dosyası içindeki \"AuthType\" değeri geçersiz."
+      "Value": "Неизвестный AuthType в config.json"
     },
     {
       "Key": "loginInvalid",
-      "Value": "Giriş başarısız oldu. Kullanıcı bilgileri yanlış."
+      "Value": "Учетные данные пользователя недействительны, не удалось войти в систему."
     },
     {
       "Key": "farmPokestopsOutsideRadius",
-      "Value": "Mevcut konum, tanımlanan yarıçapın dışında kalıyor! 5 saniye sonra {0}m'lik mesafeye yürümeye başlanacak. \"LastPos.ini\" dosyasındaki mevcut konum doğru mu?"
+      "Value":
+        "Вы находитесь вне указанного радиуса! Возвращаемся к точке старта (дистанция {0}м) через 5 сек. Ваш LastPos.ini файл корректен?"
     },
     {
       "Key": "farmPokestopsNoUsableFound",
-      "Value": "Bu alanda uygun PokéStop bulunamadı. \"MaxTravelDistanceInMeters\" değeri çok küçük olabilir."
+      "Value":
+        "Не найдено активных PokeStop'ов в вашей зоне. Возможно указана слишком маленькая максимальная дистанция поиска в настройках?"
     },
     {
       "Key": "eventFortUsed",
-      "Value": "İsim: {0} XP: {1}, Taşlar: {2}, Eşyalar: {3}, Enlem: {4}, Boylam: {5}"
+      "Value": "<{0}> XP:{1}, Gems:{2}, Items:{3}, Широта:{4}, Долгота:{5}"
     },
     {
       "Key": "eventFortFailed",
-      "Value": "İsim: {0} BİLGİ: Eşya toplama başarısız oldu. Soft ban yemiş olabilirsiniz. Ban açılıyor: {1}/{2}"
+      "Value": "Название: {0} ИНФО: Не удалось получить предметы, возможно софтбан. Попытка разбана: {1}/{2}"
     },
     {
       "Key": "eventFortTargeted",
-      "Value": "{1}m mesafedeki \"{0}\" PokéStop'una {2} saniye sonra varılacak."
+      "Value": "Направляемся к <{0}>, дистанция ({1}м) ({2} сек.)"
     },
     {
       "Key": "eventProfileLogin",
-      "Value": "Kullanıcı Adı: {0}"
+      "Value": "Играем за {0}"
     },
     {
       "Key": "eventUsedIncense",
-      "Value": "Tütsü(Incense) kullanıldı. Kalan süre: {0}"
+      "Value": "Использованы благовония, их осталось: {0}"
     },
     {
       "Key": "eventUsedLuckyEgg",
-      "Value": "Şanslı Yumurta(Lucky Egg) kullanıldı. Kalan süre: {0}"
+      "Value": "Использовано Lucky Egg, их осталось: {0}"
     },
     {
       "Key": "eventPokemonEvolvedSuccess",
-      "Value": "{0} | {1}XP kazanıldı."
+      "Value": "{0} – успешно, получено {1}xp"
     },
     {
       "Key": "eventPokemonEvolvedFailed",
-      "Value": "{0} başarısız oldu. Sonuç {1}. {2} geliştirme(evolve) durduruluyor."
+      "Value": "Неудачно: {0}. Успешно: {1}. Прекращено: {2}"
     },
     {
       "Key": "eventPokemonTransferred",
-      "Value": "{0}\t- CP: {1}  IV: {2}%   [En iyi CP: {3}  IV: {4}%]   Şeker(Candy): {5}"
+      "Value": "{0}\t (CP:{1}|IV:{2}%) [у Лучшего (CP:{3}|IV:{4}%)] Конфет: {5}"
     },
     {
       "Key": "eventItemRecycled",
-      "Value": "{0} tane {1}"
+      "Value": "{0}x {1}"
     },
     {
       "Key": "eventPokemonCaptureSuccess",
-      "Value": "({0}) | ({1}) {2} Lvl: {3} CP: ({4}/{5}) IV: {6}% | Yakalama Şansı: {7}% | Mesafe: {8}m | {9} kullanıldı ({10} tane kaldı) | {11}XP kazanıldı | {12} | Enlem: {13} Boylam: {14}"
+      "Value":
+        "=>({0})({1}) {2} {3}-УР (CР:{4}/{5}|IV:{6}%) c {7}% шансом на {8}м исп. {9} ({10} осталось). | {11} EXP получено | {12} | широта: {13} долгота: {14}"
     },
     {
       "Key": "eventPokemonCaptureFailed",
-      "Value": "({0}) | ({1}) {2} Lvl: {3} CP: ({4}/{5}) IV: {6}% | Yakalama Şansı: {7}% | Mesafe: {8}m | {9} kullanıldı ({10} tane kaldı) | Enlem: {11} Boylam: {12}"
+      "Value":
+        "=>({0})({1}) {2} {3}-УР (CР:{4}/{5}|IV:{6}%) c {7}% шансом на {8}м исп. {9} ({10} осталось). | широта: {11} долгота: {12}"
     },
     {
       "Key": "eventNoPokeballs",
-      "Value": "Poké topu kalmadı. - Kaçırılan Pokémon: {0} (CP: {1})"
+      "Value": "Нет Pokeball'ов - Мы упустили {0} (CP:{1})"
     },
     {
       "Key": "waitingForMorePokemonToEvolve",
-      "Value": "{0} Pokémon geliştirilmeyi(evolve) bekliyor! {1} Pokémon daha yakalandığında Pokémon taşıma limitinin {4}%'i dolacak. ({2}/{3})"
+      "Value": "Улучшения ждут {0} покемонов, собираем {1} оставшихся. ({2}/{3} на {4}% сумки)"
     },
     {
       "Key": "useLuckyEggsMinPokemonAmountTooHigh",
-      "Value": "\"UseLuckyEggsMinPokemonAmount\" değeri {0} olarak ayarlanmış ve çok yüksek. {1}'den küçük bir değer girilmesi lazım."
+      "Value": "Lucky eggs will never be used with UseLuckyEggsMinPokemonAmount set to {0}, use <= {1} instead"
     },
     {
       "Key": "catchMorePokemonToUseLuckyEgg",
-      "Value": "Şanslı Yumurta(Lucky Egg) kullanılması için {0} Pokémon daha yakalanması gerekiyor."
+      "Value": "Необходимо поймать еще {0} покемонов, чтобы использовать Lucky Egg!"
     },
     {
       "Key": "eventUseBerry",
-      "Value": "{0} kullanıldı | {1} tane kaldı"
+      "Value": "Использовано {0} | {1} осталось"
     },
     {
       "Key": "itemRazzBerry",
-      "Value": "Böğürtlen(Razz Berry)"
+      "Value": "Razz Berry"
     },
     {
       "Key": "catchStatusAttempt",
-      "Value": "{0} Deneme #{1}"
+      "Value": "{0}, попытка #{1}"
     },
     {
       "Key": "catchStatus",
@@ -114,1161 +118,1149 @@
     },
     {
       "Key": "candies",
-      "Value": "Şeker(Candy): {0}"
+      "Value": "Конфет: {0}"
     },
     {
       "Key": "unhandledGpxData",
-      "Value": "GPX dosyasında işlenemeyen veri bulundu. Atlanıyor."
+      "Value": "Неизвестные данные в GPX файле, пробуем пропустить."
     },
     {
       "Key": "displayHighestsHeader",
-      "Value": "Pokémonlar"
+      "Value": "ТОП покемонов"
     },
     {
       "Key": "commonWordPerfect",
-      "Value": "IV"
+      "Value": "- IV"
     },
     {
       "Key": "commonWordName",
-      "Value": "İSİM"
+      "Value": "имя"
     },
     {
       "Key": "commonWordUnknown",
-      "Value": "?"
+      "Value": "Неизвестный"
     },
     {
       "Key": "displayHighestsCpHeader",
-      "Value": "Savaş Puanı(CP) En Yüksek Pokémonlar"
+      "Value": "ТОП по CP"
     },
     {
       "Key": "displayHighestsPerfectHeader",
-      "Value": "Mükemmelliği(IV) En Yüksek Pokémonlar"
+      "Value": "ТОП по IV"
     },
     {
       "Key": "displayHighestsLevelHeader",
-      "Value": "Seviyesi(Level) En Yüksek Pokémonlar"
+      "Value": "ТОП по LV"
     },
     {
       "Key": "welcomeWarning",
-      "Value": "Varsayılan enlem(DefaultLatitude) ve boylam(DefaultLongitude) değerlerinin doğrulundan emin olun. Aksi halde programı kapatın! Enlem: {0} Boylam: {1}"
+      "Value": "Убедитесь, что Широта и Долгота верны! Закройте программу, если это не так! Широта: {0} Долгота: {1}"
     },
     {
       "Key": "incubatorPuttingEgg",
-      "Value": "Kuluçka makinesine(Incubator) Yumurta(Egg) yerleştirildi: {0:0.00}km kaldı"
+      "Value": "Кладем яйцо в инкубатор: {0:0.00}км осталось"
     },
     {
       "Key": "incubatorStatusUpdate",
-      "Value": "Kuluçka makinesi(Incubator) durum güncellemesi: {0:0.00}km kaldı"
+      "Value": "Статус инкубатора: {0:0.00}км осталось"
     },
     {
       "Key": "incubatorEggHatched",
-      "Value": "Kuluçka makinesindeki(Incubator) Yumurta(Egg) çatladı: Çıkan Pokémon: {0} | Lvl: {1} CP: ({2}/{3}) IV: {4}%"
+      "Value": "Из Яйца получили: {0} | Lvl: {1} CP: ({2}/{3}) IV: {4}%"
     },
     {
       "Key": "logEntryError",
-      "Value": "HATA"
+      "Value": "ОШИБКА"
     },
     {
       "Key": "logEntryAttention",
-      "Value": "DİKKAT"
+      "Value": "ВНИМАНИЕ"
     },
     {
       "Key": "logEntryInfo",
-      "Value": "BİLGİ"
+      "Value": "ИНФО"
     },
     {
       "Key": "logEntryPokestop",
-      "Value": "POKÉSTOP"
+      "Value": "POKESTOP"
     },
     {
       "Key": "logEntryFarming",
-      "Value": "GENEL"
+      "Value": "ФАРМ"
     },
     {
       "Key": "logEntrySniper",
-      "Value": "KESKİN NİŞANCI"
+      "Value": "СНАЙПЕР"
     },
     {
       "Key": "logEntryRecycling",
-      "Value": "ATILIYOR"
+      "Value": "УДАЛЯЕМ"
     },
     {
-      "Key": "logEntryPKMN",
-      "Value": "POKÉMON"
+      "Key": "logEntryPkmn",
+      "Value": "ЛОВИМ"
     },
     {
       "Key": "logEntryTransfered",
-      "Value": "AKTARILDI"
+      "Value": "ОБМЕНИВАЕМ"
     },
     {
       "Key": "logEntryEvolved",
-      "Value": "GELİŞTİRİLDİ"
+      "Value": "ЭВОЛЮЦИЯ"
     },
     {
       "Key": "logEntryBerry",
-      "Value": "BÖĞÜRTLEN"
+      "Value": "ЯГОДА"
     },
     {
       "Key": "logEntryEgg",
-      "Value": "YUMURTA"
+      "Value": "ЯЙЦО"
     },
     {
       "Key": "logEntryDebug",
-      "Value": "HATA AYIKLAMA"
+      "Value": "ОТЛАДКА"
     },
     {
       "Key": "logEntryUpdate",
-      "Value": "GÜNCELLEME"
+      "Value": "ОБНОВЛЕНИЕ"
     },
-    {
+	{
       "Key": "logEntryNew",
-      "Value": "YENİ"
-    },
-    {
-      "Key": "logEntrySoftBan",
-      "Value": "SOFT BAN"
+      "Value": "НОВЫЙ"
     },
     {
       "Key": "loggingIn",
-      "Value": "{0} hesabı ile oturum açılıyor..."
+      "Value": "Логинимся под аккаунтом {0}"
     },
     {
       "Key": "ptcOffline",
-      "Value": "PTC sunucuları yanıt vermiyor ya da kullanıcı bilgileri yanlış olabilir. Google hesabı ile deneyin."
+      "Value":
+        "PTC сервера возможно не работают ИЛИ неверно указаны данные учетной записи. Попробуйте использовать логин от Google аккаунта"
     },
-    {
+	{
       "Key": "accessTokenExpired",
-      "Value": "PTC oturumu sonlandı. Tekrar oturum açılıyor..."
+      "Value": "Токен PTC истек. Перезаходим..."
     },
     {
       "Key": "invalidResponse",
-      "Value": "Niantic sunucuları tepki vermiyor."
+      "Value": "Получен недопустимый ответ от сервера Niantic"
     },
     {
       "Key": "tryingAgainIn",
-      "Value": "{0} saniye içinde tekrar denenecek..."
+      "Value": "Пробуем снова через {0} сек..."
     },
     {
       "Key": "accountNotVerified",
-      "Value": "Hesap doğrulanmamış! Program kapatılıyor..."
+      "Value": "Аккаунт не верифицирован! Выходим..."
     },
     {
       "Key": "openingGoogleDevicePage",
-      "Value": "Google Device sayfası açılıyor. Doğrulama kodunu Ctrl+V kullanarak yapıştırın."
+      "Value": "Открываем страницу Google Device. Пожалуйста, вставьте код используя CTRL+V"
     },
     {
       "Key": "couldntCopyToClipboard",
-      "Value": "Doğrulama kodu panoya kopyalanamadı. Lütfen kodu elle yazın."
+      "Value": "Не удалось скопировать код в буфер обмена, сделайте это вручную"
     },
     {
       "Key": "couldntCopyToClipboard2",
-      "Value": "\"{0}\" adresine gidin ve \"{1}\" kodunu girin."
+      "Value": "Пройдите по ссылке: {0} и введите {1}"
     },
     {
       "Key": "realisticTravelDetected",
-      "Value": "Gerçekçi gezinme algılandı. \"config.json\" içindeki varsayılan ayarlar kullanılıyor."
+      "Value": "Обнаружено реалистичное перемещение, используем настройки по умолчанию в файле config.json"
     },
     {
       "Key": "notRealisticTravel",
-      "Value": "{0} konumunda gerçekçi gezinme geçerli değil. \"LastPos.ini\" dosyasındaki son kaydedilen koordinatlar kullanılıyor."
+      "Value": "Не реалистичное перемещение в {0}, используем последнее сохраненное в LastPos.ini"
     },
     {
       "Key": "coordinatesAreInvalid",
-      "Value": "\"LastPos.ini\" dosyasındaki koordinatlar geçerli değil. Varsayılan koordinatlar kullanılıyor."
+      "Value": "Координаты в файле \"LastPos.ini\" неверны, используем координаты по умолчанию"
     },
     {
       "Key": "gotUpToDateVersion",
-      "Value": "Harika! En güncel sürüm kullanılıyor. ({0})"
+      "Value": "Отлично! У Вас уже установлена последняя версия {0}"
     },
     {
       "Key": "autoUpdaterDisabled",
-      "Value": "Otomatik güncelleme kapalı. Son sürümü indirmek için: {0}\n"
+      "Value": "Автообновление отключено. Последний релиз можно скачать с: {0}\n "
     },
     {
       "Key": "downloadingUpdate",
-      "Value": "Güncelleme indiriliyor..."
+      "Value": "Скачиваем и устанавливаем обновление..."
     },
     {
       "Key": "finishedDownloadingRelease",
-      "Value": "İndirme tamamlandı..."
+      "Value": "Завершено скачивание нового релиза..."
     },
     {
       "Key": "finishedUnpackingFiles",
-      "Value": "Güncelleme paketten çıkarılıyor..."
+      "Value": "Завершена распаковка файлов..."
     },
     {
-      "Key": "FinishedTransferringConfig",
-      "Value": "Ayar dosyası(config.json) yeni sürüme aktarılıyor..."
+      "Key": "finishedTransferringConfig",
+      "Value": "Завершена передача вашей конфигурации в новую версию..."
     },
     {
       "Key": "updateFinished",
-      "Value": "Güncelleme tamamlandı. Bu pencereyi kapatabilirsiniz."
+      "Value": "Обновление завершено, теперь вы можете закрыть это окно."
     },
     {
       "Key": "lookingForIncensePokemon",
-      "Value": "Tütsü(Incense) Pokémon'u aranıyor..."
+      "Value": "Ищем покемона привлеченного Благовониями..."
     },
     {
       "Key": "lookingForPokemon",
-      "Value": "Pokémon aranıyor..."
+      "Value": "Ищем покемона..."
     },
     {
       "Key": "lookingForLurePokemon",
-      "Value": "Yem(Lure) Pokémon'u aranıyor..."
+      "Value": "Ищем покемона привлеченного Люр Модулем..."
     },
     {
       "Key": "pokemonSkipped",
-      "Value": "{0} atlandı."
+      "Value": "Пропущен {0}"
     },
     {
       "Key": "zeroPokeballInv",
-      "Value": "Poké topu kalmadı. Daha fazla Pokémon yakalanamaz!"
+      "Value": "Кончились покеболы, больше нет возможности ловить покемонов."
     },
     {
       "Key": "currentPokeballInv",
-      "Value": "Poké Ball: {0} | Great Ball: {1} | Ultra Ball: {2} | Master Ball: {3}"
+      "Value": "Pokeballs: {0} | Greatballs: {1} | Ultraballs: {2} | Masterballs: {3}"
     },
     {
-      "Key": "currentPotionInv",
-      "Value": "Potion: {0} | Super Potion: {1} | Hyper Potion: {2} | Max Potion: {3}"
+      "Key": "CurrentPotionInv",
+      "Value": "Potions: {0} | SuperPotions: {1} | HyperPotions: {2} | MaxPotions: {3}"
     },
     {
-      "Key": "currentReviveInv",
-      "Value": "Revive: {0} | Max Revive: {1}"
+      "Key": "CurrentReviveInv",
+      "Value": "Revives: {0} | MaxRevives: {1}"
     },
     {
-      "Key": "currentMiscItemInv",
-      "Value": "Razz Berry: {0} | Incense: {1} | Lucky Egg: {2} | Lure Module: {3}"
+      "Key": "CurrentMiscItemInv",
+      "Value": "Berrys: {0} | Incense: {1} | LuckyEggs: {2} | Lures: {3}"
     },
     {
       "Key": "maxItemsCombinedOverMaxItemStorage",
-      "Value": "[Geçersiz Ayar] Tüm eşyaların toplamı (Pokétopları+Potionlar+Revivelar={0}) taşınabilecek eşya limitinden ({1}) daha fazla olamaz."
+      "Value": "[Ошибка Конфигурации] Общее количество выбранных предметов (шары+зелья+возр.={0}) превышает максимальное значение рюкзака ({1})"
     },
     {
       "Key": "recyclingQuietly",
-      "Value": "Sessizce atılıyor..."
+      "Value": "Recycling Quietly..."
     },
     {
       "Key": "invFullTransferring",
-      "Value": "Taşınabilecek Pokémon limiti doldu! Pokémonlar aktarılıyor..."
+      "Value": "Инвентарь полон. Передайте покемонов Профессору..."
     },
     {
       "Key": "invFullTransferManually",
-      "Value": "Taşınabilecek Pokémon limiti doldu! Pokémonları elle aktararak yer açın ya da ayarlardan \"TransferDuplicatePokemon\" değerini \"true\" yapın."
+      "Value":
+        "Инвентарь полон. Вручную передайте покемона Профессору или установите настройку TransferDuplicatePokemon как true ... "
     },
     {
       "Key": "invFullPokestopLooting",
-      "Value": "Taşınabilecek eşya limiti doldu! Hiçbir eşya alınamadı!"
+      "Value": "Инвентарь полон, не можем взять предметы!"
     },
     {
       "Key": "encounterProblem",
-      "Value": "Pokémon yakalarken bir sorunla karşılaşıldı: {0}"
+      "Value": "Проблема с отловом: {0}"
     },
     {
       "Key": "encounterProblemLurePokemon",
-      "Value": "Yem(Lure) Pokémon'u yakalarken bir sorunla karşılaşıldı: {0}"
+      "Value": "Проблема с отловом: Приманенный ЛюрМодулем покемон {0}"
     },
     {
       "Key": "desiredDestTooFar",
-      "Value": "Hedeflenen konum ({0}, {1}) geçerli konuma ({2}, {3}) çok uzak."
+      "Value": "Указанное местоназначение {0}, {1} слишком далеко от текущей позиции {2}, {3}"
     },
     {
       "Key": "pokemonRename",
-      "Value": "{0} ({1}) | Pokémon'un ismi değiştirildi. (\"{2}\" -> \"{3}\")"
+      "Value": "Покемон {0} ({1}) переименован из {2} в {3}."
     },
     {
       "Key": "pokemonFavorite",
-      "Value": "{1} IV:{0}% CP:{2} | Pokémon *favorilere* eklendi."
+      "Value": "{0}% IV {1} (CP {2}) добавлен в *избранное*."
     },
     {
       "Key": "pokemonIgnoreFilter",
-      "Value": "[Pokémon Yakalamama Filtresi] - {0} ayarlarda belirtildiği üzere yakalanmadı."
+      "Value": "[Фильтр игнора покемонов] - Игнорируем {0} как указано в настройках"
     },
     {
       "Key": "catchStatusAttempt",
-      "Value": "Yakalama: Deneme"
+      "Value": "попытка"
     },
     {
       "Key": "catchStatusError",
-      "Value": "Yakalama: Hata"
+      "Value": "ОШИБКА"
     },
     {
       "Key": "catchStatusEscape",
-      "Value": "Yakalama: Toptan Çıktı"
+      "Value": "ВЫБРАЛСЯ"
     },
     {
       "Key": "catchStatusFlee",
-      "Value": "Yakalama: Kaçtı"
+      "Value": "СБЕЖАЛ"
     },
     {
       "Key": "catchStatusMissed",
-      "Value": "Yakalama: Iskalandı"
+      "Value": "УПУСТИЛИ"
     },
     {
       "Key": "catchStatusSuccess",
-      "Value": "Yakalama: Başarılı"
+      "Value": "УДАЧНО"
     },
     {
       "Key": "catchTypeNormal",
-      "Value": "Normal"
+      "Value": "Обычный"
     },
     {
       "Key": "catchTypeLure",
-      "Value": "Yem(Lure)"
+      "Value": "на ЛюрМодуль"
     },
     {
       "Key": "catchTypeIncense",
-      "Value": "Tütsü(Incense)"
+      "Value": "на Благовония"
     },
     {
       "Key": "webSocketFailStart",
-      "Value": "webSocketServer {0} portunda çalıştırılamadı."
+      "Value": "Не удалось запустить WebSocketServer через порт : {0}"
     },
     {
       "Key": "statsTemplateString",
-      "Value": "{0} - Süre {1} - Seviye: {2} | XP/SA: {3:n0} | P/SA: {4:n0} | Stardust: {5:n0} | Aktarılan Pokémon: {6:n0} | Atılan Eşya: {7:n0}"
-    },
-    {
-      "Key": "profileStatsTemplateString",
-      "Value": "----- SEVİYE {0} | {1} ----- \n Tecrübe(XP): {2}/{3} \n Yakalanan Pokémon: {4} \n Karşılaşılan Pokémon: {5} \n Ziyaret Edilen Pokéstop: {6} \n Çatlatılan Yumurta(Egg): {7} \n Geliştirilen(Evolve) Pokémon: {8} \n Pokédex Kayıtları: {9} \n Yürünen Mesafe: {10}km  \n Pokémonlar: {11}/{12}"
-    },
-    {
-      "Key": "showPokeTemplate",
-      "Value": "\n CP: {0} | IV: {1}% | İsim: {2}"
-    },
-    {
-      "Key": "helpTemplate",
-      "Value": "Komutlar: \n \n /top <cp/iv> <sayı> - En iyi Pokémonları gösterir. \n /all <cp/iv> - Bütün Pokémonları gösterir. \n /profile - Profili gösterir. \n /loc - Konumu gösterir. \n /items - Eşyaları gösterir. \n /status - Bot durumunu gösterir. \n /pokedex - Pokédex'i gösterir."
+      "Value": "{0}-Онлайн {1}, Ур:{2}|XP/ч:{3:0}|П/ч:{4:0}|Пыль:{5:0}|Обменено:{6:0}|Удалено:{7:0}"
     },
     {
       "Key": "statsXpTemplateString",
-      "Value": "{0} (Sonraki seviye: {1}sa {2}dk | {3:n0}/{4:n0} XP)"
+      "Value": "{0} (след.через {1}ч{2}м|{3}/{4} XP)"
     },
     {
       "Key": "requireInputText",
-      "Value": "Devam etmek için bir tuşa basın..."
+      "Value": "Нажмите любую клавишу для продолжения..."
     },
     {
       "Key": "googleTwoFactorAuth",
-      "Value": "\"Google İki Aşamalı Doğrulama\" etkinleştirilmiş olduğundan dolayı \"auth.json\" dosyasına uygulamaya özel şifrenin eklenmesi gerekiyor."
+      "Value":
+        "Т.к. у Вас включена двухфакторная аутентификация Google, Вам нужно поместить пароль Приложения Google в файл auth.json"
     },
     {
       "Key": "googleTwoFactorAuthExplanation",
-      "Value": "\"Google Uygulama Şifreleri\" sayfası açılıyor. Lütfen yeni bir uygulama şifresi oluşturun. (Aygıt olarak \"Diğer\" seçeneğini seçin.)"
+      "Value":
+        "Открываем пароли Google App. Пожалуйста, создайте новый пароль приложения (выберите Other(Другое) в качестве устройства)"
     },
     {
       "Key": "googleError",
-      "Value": "Google mail adresinizi ve şifrenizi doğru girdiğinizden emin olun."
+      "Value": "Убедитесь, что Вы ввели верные E-mail и Пароль от аккаунта!"
     },
     {
       "Key": "googleOffline",
-      "Value": "Google sunucuları şu an yanıt vermiyor. Daha sonra tekrar deneyin."
+      "Value": "Google servers are probably down, Please be patient and start the bot later."
     },
     {
       "Key": "missingCredentialsGoogle",
-      "Value": "\"auth.json\" dosyasına GoogleUsername ve GooglePassword değerlerini girmeniz gerekiyor!"
+      "Value": "Вам нужно заполнить настройки GoogleUsername и GooglePassword в auth.json!"
     },
     {
       "Key": "missingCredentialsPtc",
-      "Value": "\"auth.json\" dosyasına PtcUsername ve PtcPassword değerlerini girmeniz gerekiyor!"
+      "Value": "Вам нужно заполнить настройки PtcUsername и PtcPassword в auth.json!"
     },
     {
       "Key": "snipeScan",
-      "Value": "{0} konumunda nişan alınacak Pokémon aranıyor..."
+      "Value": "[Снайпер] Ищем покемона для отлова в локации {0}..."
     },
     {
       "Key": "snipeScanEx",
-      "Value": "{2} konumunda nişan alınan Pokémon: {0} (IV: {1}%)"
+      "Value": "Sniping a {0} with {1} IV at {2}..."
     },
     {
       "Key": "noPokemonToSnipe",
-      "Value": "Bu konumda nişan alınacak Pokémon bulunamadı! Süresi dolmuş olabilir."
+      "Value": "[Снайпер] Покемона для отлова не обнаружено!"
     },
     {
       "Key": "notEnoughPokeballsToSnipe",
-      "Value": "Keskin nişancılık için yeterli Poké topu yok! ({0}/{1})"
+      "Value": "Недостаточно Pokeball'ов для старта снайпинга! ({0}/{1})"
     },
     {
-      "Key": "displayHighestMOVE1Header",
-      "Value": "SALDIRI-1"
+      "Key": "displayHighestMove1Header",
+      "Value": "ПРИЁМ1"
     },
     {
-      "Key": "displayHighestMOVE2Header",
-      "Value": "SALDIRI-2"
+      "Key": "displayHighestMove2Header",
+      "Value": "ПРИЁМ2"
     },
     {
       "Key": "displayHighestCandy",
-      "Value": "Şeker(Candy)"
+      "Value": "Конфеты"
     },
     {
-      "Key": "iPBannedError",
-      "Value": "Bağlantı sağlanamadı. IP'niz Niantic tarafından kara listeye alınmış olabilir. Program kapatılıyor..."
+      "Key": "ipBannedError",
+      "Value": "Соединение разорвано. Ваш IP может быть в черном списке Niantic. Выход.."
     },
     {
       "Key": "noEggsAvailable",
-      "Value": "Elinizde hiç Yumurta(Egg) kalmadı."
+      "Value": "Нет доступных яиц"
     },
     {
       "Key": "useLuckyEggActive",
-      "Value": "Şanslı Yumurta(Lucky Egg) zaten aktif durumda."
+      "Value": "Lucky Egg уже активно"
     },
     {
       "Key": "usedLuckyEgg",
-      "Value": "Şanslı Yumurta(Lucky Egg) kullanıldı."
+      "Value": "Использовано Lucky Egg"
     },
     {
       "Key": "useLuckyEggAmount",
-      "Value": "Elinizde kullanabileceğiniz {0} adet Şanslı Yumurta(Lucky Egg) var."
+      "Value": "Lucky Egg в инвентаре: {0}"
     },
     {
       "Key": "noIncenseAvailable",
-      "Value": "Elinizde hiç Tütsü(Incense) kalmadı."
+      "Value": "Нет доступных благовоний"
     },
     {
       "Key": "useIncenseActive",
-      "Value": "Tütsü(Incense) zaten aktif durumda."
+      "Value": "Благовония уже активны"
     },
     {
       "Key": "useIncenseAmount",
-      "Value": "Elinizde kullanabileceğiniz {0} adet Tütsü(Incense) var."
+      "Value": "Благовоний в инвентаре: {0}"
     },
     {
       "Key": "usedIncense",
-      "Value": "Tütsü(Incense) kullanıldı."
+      "Value": "Использованы благовония"
     },
     {
       "Key": "amountPkmSeenCaught",
-      "Value": "Karşılaşılan Pokémon Sayısı: {0}/151, Yakalanan Pokémon Sayısı: {1}/151"
+      "Value": "Покемонов изучено: {0}/151, Покемонов поймано: {1}/151"
     },
     {
       "Key": "pkmPotentialEvolveCount",
-      "Value": "Geliştirilebilecek(evolve) Pokémon sayısı: {0}"
+      "Value": "[Эволюции] Возможных эволюций: {0}"
     },
     {
       "Key": "pkmNotEnoughRessources",
-      "Value": "Elde yeterli kaynak olmadığı için Pokémon seviyesi (level up) artırılamadı."
+      "Value": "Апгрейд покемона провален. Недостаточно ресурсов"
     },
     {
       "Key": "snipeServerOffline",
-      "Value": "Keskin nişancı sunucusu çevrimdışı. Atlanıyor..."
+      "Value": "Sniping сервер не доступен. Пропускаем..."
     },
     {
       "Key": "firstStartPrompt",
-      "Value": "Programı ilk kez çalıştırıyorsunuz. Kuruluma başlamak ister misiniz? {0}/{1}"
+      "Value": "Это ваш первый старт, вы хотели бы начать установку? {0}/{1}"
     },
     {
       "Key": "firstStartLanguagePrompt",
-      "Value": "Varsayılan dili değiştirmek ister misiniz? {0}/{1}"
+      "Value": "Вы хотели бы сменить язык используемый по умолчанию? {0}/{1}"
     },
     {
       "Key": "firstStartLanguageCodePrompt",
-      "Value": "Lütfen yeni bir dil kodu girin."
+      "Value": "Пожалуйста, введите новый код языка"
     },
     {
       "Key": "firstStartLanguageConfirm",
-      "Value": "Dil onaylandı: {0}"
+      "Value": "Применен код языка: {0}"
     },
     {
       "Key": "promptError",
-      "Value": "[GİRDİ HATASI] Bir girdi hatası tespit edildi. Lütfen '{0}' ya da '{1}' girin."
+      "Value": "[ОШИБКА ВВОДА] Ошибка ввода, введите '{0}' или '{1}"
     },
     {
       "Key": "firstStartAutoGenSettings",
-      "Value": "\"auth.json\" ve \"config.json\" dosyaları otomatik olarak oluşturuldu. Programı çalıştırmadan önce elle doldurmanız gerekiyor."
+      "Value": "Конфигурационный файл генерируется автоматически и должен быть завершен, прежде чем продолжить"
     },
     {
       "Key": "firstStartSetupAccount",
-      "Value": "### YENİ KULLANICI HESABI GİRİŞİ ###"
+      "Value": "### Настройка новой УЧЕТНОЙ ЗАПИСИ ###"
     },
     {
       "Key": "firstStartSetupTypePrompt",
-      "Value": "Bir kullanıcı hesap türü seçin: {0}/{1}"
+      "Value": "Пожалуйста, выберите тип учетной записи: {0}/{1}"
     },
     {
       "Key": "firstStartSetupTypeConfirm",
-      "Value": "Seçilen kullanıcı hesap türü: {0}"
+      "Value": "Выбран тип аккаунта: {0}"
     },
     {
       "Key": "firstStartSetupTypePromptError",
-      "Value": "[HATA] Girilen hesap türü yanlış. Lütfen '{0}' ya da '{1}' girin."
+      "Value": "[ОШИБКА] передан неправильный тип учетной записи, выберите '{0}' или '{1}'"
     },
     {
       "Key": "firstStartSetupUsernamePrompt",
-      "Value": "Kullanıcı adınızı girin."
+      "Value": "Пожалуйста, введите имя пользователя"
     },
     {
       "Key": "firstStartSetupUsernameConfirm",
-      "Value": "Kullanıcı adı onaylandı: {0}"
+      "Value": "Принято имя пользователя: {0}"
     },
     {
       "Key": "firstStartSetupPasswordPrompt",
-      "Value": "Şifrenizi girin."
+      "Value": "Пожалуйста, введите пароль"
     },
     {
       "Key": "firstStartSetupPasswordConfirm",
-      "Value": "Şifre onaylandı: {0}"
+      "Value": "Принят пароль: {0}"
     },
     {
       "Key": "firstStartAccountCompleted",
-      "Value": "### KULLANICI HESABI GİRİŞİ TAMAMLANDI ###"
+      "Value": "### Учетная запись создана ###"
     },
     {
       "Key": "firstStartDefaultLocationPrompt",
-      "Value": "Varsayılan konumunuzu girmek ister misiniz? {0}/{1}"
+      "Value": "Вы хотите установить новые координаты используемые по умолчанию? {0}/{1}"
     },
     {
       "Key": "firstStartDefaultLocationSet",
-      "Value": "Varsayılan konum girişi onaylandı."
+      "Value": "Приняты координаты используемые по умолчанию"
     },
     {
       "Key": "firstStartDefaultLocation",
-      "Value": "### VARSAYILAN KONUM GİRİŞİ ###"
+      "Value": "### Настройка локации используемой по умолчанию ###"
     },
     {
       "Key": "firstStartSetupDefaultLocationError",
-      "Value": "[HATA] Lütfen sadece DEĞER girin (Örnek: {0})"
+      "Value": "[ОШИБКА] пожалуйста, введите значение, например: {0}"
     },
     {
       "Key": "firstStartSetupDefaultLatPrompt",
-      "Value": "Lütfen bir enlem(latitude) girin. (Sağ tıklayıp yapıştırabilirsiniz.)"
+      "Value": "Пожалуйста, введите широту (Щелкните правой кнопкой мыши, чтобы вставить)"
     },
     {
       "Key": "firstStartSetupDefaultLatConfirm",
-      "Value": "Enlem(lattitude) onaylandı: {0}"
+      "Value": "Принята широта: {0}"
     },
     {
       "Key": "firstStartSetupDefaultLongPrompt",
-      "Value": "Lütfen bir boylam(longitude) girin. (Sağ tıklayıp yapıştırabilirsiniz.)"
+      "Value": "Пожалуйста, введите долготу (Щелкните правой кнопкой мыши, чтобы вставить)"
     },
     {
       "Key": "firstStartSetupDefaultLongConfirm",
-      "Value": "Boylam(longitude) onaylandı: {0}"
+      "Value": "Принята долгота: {0}"
     },
-	{
+    {
       "Key": "firstStartSetupCompleted",
-      "Value": "### KURULUM TAMAMLANDI ###"
+      "Value": "### ЗАВВЕРШЕНА УСТАНОВКА CONFIG'a ###"
     },
     {
       "Key": "PokedexCatchedTelegram",
-      "Value": "--- Pokédex Yakalandı --- \n"
+      "Value":  "--- Pokedex catched --- \n"  
     },
     {
       "Key": "PokedexPokemonCatchedTelegram",
-      "Value": "#{0} İsim: {1} | Yakalanan: {2} | Karşılaşılan: {3} \n"
+      "Value":  "#{0} Name: {1} | Catched: {2} | Encountered: {3} \n"  
     },
     {
       "Key": "PokedexNeededTelegram",
-      "Value": "--- Pokédex Gerekiyor --- \n"
+      "Value":  "--- Pokedex needed --- \n"  
     },
     {
       "Key": "PokedexPokemonNeededTelegram",
-      "Value": "#{0} İsim: {1} \n"
+      "Value":  "#{0} Name: {1} \n"  
     }
   ],
-  "PokemonStrings": [
+	"PokemonStrings": [
     {
       "Key": "bulbasaur",
-      "Value": "Bulbasaur"
+      "Value": "Бульбазавр"
     },
     {
       "Key": "ivysaur",
-      "Value": "Ivysaur"
+      "Value": "Ивизаавр"
     },
     {
       "Key": "venusaur",
-      "Value": "Venusaur"
+      "Value": "Венузаавр"
     },
     {
       "Key": "charmander",
-      "Value": "Charmander"
+      "Value": "Чармандер"
     },
     {
       "Key": "charmeleon",
-      "Value": "Charmeleon"
+      "Value": "Чармелеон"
     },
     {
       "Key": "charizard",
-      "Value": "Charizard"
+      "Value": "Чаризард"
     },
     {
       "Key": "squirtle",
-      "Value": "Squirtle"
+      "Value": "Сквиртл"
     },
     {
       "Key": "wartortle",
-      "Value": "Wartortle"
+      "Value": "Вартортл"
     },
     {
       "Key": "blastoise",
-      "Value": "Blastoise"
+      "Value": "Бластойз"
     },
     {
       "Key": "caterpie",
-      "Value": "Caterpie"
+      "Value": "Катерпи"
     },
     {
       "Key": "metapod",
-      "Value": "Metapod"
+      "Value": "Метапод"
     },
     {
       "Key": "butterfree",
-      "Value": "Butterfree"
+      "Value": "Баттерфри"
     },
     {
       "Key": "weedle",
-      "Value": "Weedle"
+      "Value": "Видл"
     },
     {
       "Key": "kakuna",
-      "Value": "Kakuna"
+      "Value": "Какуна"
     },
     {
       "Key": "beedrill",
-      "Value": "Beedrill"
+      "Value": "Бидрилл"
     },
     {
       "Key": "pidgey",
-      "Value": "Pidgey"
+      "Value": "Пиджи"
     },
     {
       "Key": "pidgeotto",
-      "Value": "Pidgeotto"
+      "Value": "Пиджеотто"
     },
     {
       "Key": "pidgeot",
-      "Value": "Pidgeot"
+      "Value": "Пиджит"
     },
     {
       "Key": "rattata",
-      "Value": "Rattata"
+      "Value": "Раттата"
     },
     {
       "Key": "raticate",
-      "Value": "Raticate"
+      "Value": "Ратикэйт"
     },
     {
       "Key": "spearow",
-      "Value": "Spearow"
+      "Value": "Спироу"
     },
     {
       "Key": "fearow",
-      "Value": "Fearow"
+      "Value": "Фироу"
     },
     {
       "Key": "ekans",
-      "Value": "Ekans"
+      "Value": "Эканс"
     },
     {
       "Key": "arbok",
-      "Value": "Arbok"
+      "Value": "Эрбок"
     },
     {
       "Key": "pikachu",
-      "Value": "Pikachu"
+      "Value": "Пикачу"
     },
     {
       "Key": "raichu",
-      "Value": "Raichu"
+      "Value": "Райчу"
     },
     {
       "Key": "sandshrew",
-      "Value": "Sandshrew"
+      "Value": "Сэндшру"
     },
     {
       "Key": "sandslash",
-      "Value": "Sandslash"
+      "Value": "Сэндслэш"
     },
     {
       "Key": "nidoranFemale",
-      "Value": "Nidoran♀"
+      "Value": "Нидоран♀"
     },
     {
       "Key": "nidorina",
-      "Value": "Nidorina"
+      "Value": "Нидорина"
     },
     {
       "Key": "nidoqueen",
-      "Value": "Nidoqueen"
+      "Value": "Нидоквин"
     },
     {
       "Key": "nidoranMale",
-      "Value": "Nidoran♂"
+      "Value": "Нидоран♂"
     },
     {
       "Key": "nidorino",
-      "Value": "Nidorino"
+      "Value": "Нидорино"
     },
     {
       "Key": "nidoking",
-      "Value": "Nidoking"
+      "Value": "Нидокинг"
     },
     {
       "Key": "clefairy",
-      "Value": "Clefairy"
+      "Value": "Клефейри"
     },
     {
       "Key": "clefable",
-      "Value": "Clefable"
+      "Value": "Клефейбл"
     },
     {
       "Key": "vulpix",
-      "Value": "Vulpix"
+      "Value": "Вульпикс"
     },
     {
       "Key": "ninetales",
-      "Value": "Ninetales"
+      "Value": "Найнтейлс"
     },
     {
       "Key": "jigglypuff",
-      "Value": "Jigglypuff"
+      "Value": "Джигглипуф"
     },
     {
       "Key": "wigglytuff",
-      "Value": "Wigglytuff"
+      "Value": "Вигглитаф"
     },
     {
       "Key": "zubat",
-      "Value": "Zubat"
+      "Value": "Зубат"
     },
     {
       "Key": "golbat",
-      "Value": "Golbat"
+      "Value": "Голбат"
     },
     {
       "Key": "oddish",
-      "Value": "Oddish"
+      "Value": "Оддиш"
     },
     {
       "Key": "gloom",
-      "Value": "Gloom"
+      "Value": "Глум"
     },
     {
       "Key": "vileplume",
-      "Value": "Vileplume"
+      "Value": "Вайлплум"
     },
     {
       "Key": "paras",
-      "Value": "Paras"
+      "Value": "Парас"
     },
     {
       "Key": "parasect",
-      "Value": "Parasect"
+      "Value": "Парасект"
     },
     {
       "Key": "venonat",
-      "Value": "Venonat"
+      "Value": "Венонат"
     },
     {
       "Key": "venomoth",
-      "Value": "Venomoth"
+      "Value": "Веномот"
     },
     {
       "Key": "diglett",
-      "Value": "Diglett"
+      "Value": "Диглетт"
     },
     {
       "Key": "dugtrio",
-      "Value": "Dugtrio"
+      "Value": "Дагтрио"
     },
     {
       "Key": "meowth",
-      "Value": "Meowth"
+      "Value": "Мяут"
     },
     {
       "Key": "persian",
-      "Value": "Persian"
+      "Value": "Персиан"
     },
     {
       "Key": "psyduck",
-      "Value": "Psyduck"
+      "Value": "Псидак"
     },
     {
       "Key": "golduck",
-      "Value": "Golduck"
+      "Value": "Голдак"
     },
     {
       "Key": "mankey",
-      "Value": "Mankey"
+      "Value": "Манки"
     },
     {
       "Key": "primeape",
-      "Value": "Primeape"
+      "Value": "Праймейп"
     },
     {
       "Key": "growlithe",
-      "Value": "Growlithe"
+      "Value": "Гроулит"
     },
     {
       "Key": "arcanine",
-      "Value": "Arcanine"
+      "Value": "Арканайн"
     },
     {
       "Key": "poliwag",
-      "Value": "Poliwag"
+      "Value": "Поливаг"
     },
     {
       "Key": "poliwhirl",
-      "Value": "Poliwhirl"
+      "Value": "Поливирл"
     },
     {
       "Key": "poliwrath",
-      "Value": "Poliwrath"
+      "Value": "Поливрэт"
     },
     {
       "Key": "abra",
-      "Value": "Abra"
+      "Value": "Абра"
     },
     {
       "Key": "kadabra",
-      "Value": "Kadabra"
+      "Value": "Кадабра"
     },
     {
       "Key": "alakazam",
-      "Value": "Alakazam"
+      "Value": "Алаказам"
     },
     {
       "Key": "machop",
-      "Value": "Machop"
+      "Value": "Мачоп"
     },
     {
       "Key": "machoke",
-      "Value": "Machoke"
+      "Value": "Мачок"
     },
     {
       "Key": "machamp",
-      "Value": "Machamp"
+      "Value": "Мачемп"
     },
     {
       "Key": "bellsprout",
-      "Value": "Bellsprout"
+      "Value": "Беллспраут"
     },
     {
       "Key": "weepinbell",
-      "Value": "Weepinbell"
+      "Value": "Випинбелл"
     },
     {
       "Key": "victreebel",
-      "Value": "Victreebel"
+      "Value": "Виктрибелл"
     },
     {
       "Key": "tentacool",
-      "Value": "Tentacool"
+      "Value": "Тентакул"
     },
     {
       "Key": "tentacruel",
-      "Value": "Tentacruel"
+      "Value": "Тентакруэль"
     },
     {
       "Key": "geodude",
-      "Value": "Geodude"
+      "Value": "Джеодуд"
     },
     {
       "Key": "graveler",
-      "Value": "Graveler"
+      "Value": "Гравелер"
     },
     {
       "Key": "golem",
-      "Value": "Golem"
+      "Value": "Голем"
     },
     {
       "Key": "ponyta",
-      "Value": "Ponyta"
+      "Value": "Понита"
     },
     {
       "Key": "rapidash",
-      "Value": "Rapidash"
+      "Value": "Рапидаш"
     },
     {
       "Key": "slowpoke",
-      "Value": "Slowpoke"
+      "Value": "Слоупок"
     },
     {
       "Key": "slowbro",
-      "Value": "Slowbro"
+      "Value": "Слоубро"
     },
     {
       "Key": "magnemite",
-      "Value": "Magnemite"
+      "Value": "Магремайт"
     },
     {
       "Key": "magneton",
-      "Value": "Magneton"
+      "Value": "Магнетон"
     },
     {
       "Key": "farfetchd",
-      "Value": "Farfetch'd"
+      "Value": "Фарфетчд"
     },
     {
       "Key": "doduo",
-      "Value": "Doduo"
+      "Value": "Додуо"
     },
     {
       "Key": "dodrio",
-      "Value": "Dodrio"
+      "Value": "Додрио"
     },
     {
       "Key": "seel",
-      "Value": "Seel"
+      "Value": "Сил"
     },
     {
       "Key": "dewgong",
-      "Value": "Dewgong"
+      "Value": "Дьюгонг"
     },
     {
       "Key": "grimer",
-      "Value": "Grimer"
+      "Value": "Граймер"
     },
     {
       "Key": "muk",
-      "Value": "Muk"
+      "Value": "Мак"
     },
     {
       "Key": "shellder",
-      "Value": "Shellder"
+      "Value": "Шеллдер"
     },
     {
       "Key": "cloyster",
-      "Value": "Cloyster"
+      "Value": "Клойстер"
     },
     {
       "Key": "gastly",
-      "Value": "Gastly"
+      "Value": "Гастли"
     },
     {
       "Key": "haunter",
-      "Value": "Haunter"
+      "Value": "Хонтер"
     },
     {
       "Key": "gengar",
-      "Value": "Gengar"
+      "Value": "Генгар"
     },
     {
       "Key": "onix",
-      "Value": "Onix"
+      "Value": "Оникс"
     },
     {
       "Key": "drowzee",
-      "Value": "Drowzee"
+      "Value": "Дроузи"
     },
     {
       "Key": "hypno",
-      "Value": "Hypno"
+      "Value": "Гипно"
     },
     {
       "Key": "krabby",
-      "Value": "Krabby"
+      "Value": "Крабби"
     },
     {
       "Key": "kingler",
-      "Value": "Kingler"
+      "Value": "Кинглер"
     },
     {
       "Key": "voltorb",
-      "Value": "Voltorb"
+      "Value": "Волторб"
     },
     {
       "Key": "electrode",
-      "Value": "Electrode"
+      "Value": "Електрод"
     },
     {
       "Key": "exeggcute",
-      "Value": "Exeggcute"
+      "Value": "Экзеггут"
     },
     {
       "Key": "exeggutor",
-      "Value": "Exeggutor"
+      "Value": "Экзеггутор"
     },
     {
       "Key": "cubone",
-      "Value": "Cubone"
+      "Value": "Кубон"
     },
     {
       "Key": "marowak",
-      "Value": "Marowak"
+      "Value": "Маровак"
     },
     {
       "Key": "hitmonlee",
-      "Value": "Hitmonlee"
+      "Value": "Хитмонли"
     },
     {
       "Key": "hitmonchan",
-      "Value": "Hitmonchan"
+      "Value": "Хитмончан"
     },
     {
       "Key": "lickitung",
-      "Value": "Lickitung"
+      "Value": "Ликитунг"
     },
     {
       "Key": "koffing",
-      "Value": "Koffing"
+      "Value": "Коффинг"
     },
     {
       "Key": "weezing",
-      "Value": "Weezing"
+      "Value": "Визинг"
     },
     {
       "Key": "rhyhorn",
-      "Value": "Rhyhorn"
+      "Value": "Райхорн"
     },
     {
       "Key": "rhydon",
-      "Value": "Rhydon"
+      "Value": "Райдон"
     },
     {
       "Key": "chansey",
-      "Value": "Chansey"
+      "Value": "Ченси"
     },
     {
       "Key": "tangela",
-      "Value": "Tangela"
+      "Value": "Тангела"
     },
     {
       "Key": "kangaskhan",
-      "Value": "Kangaskhan"
+      "Value": "Кангасхан"
     },
     {
       "Key": "horsea",
-      "Value": "Horsea"
+      "Value": "Хорси"
     },
     {
       "Key": "seadra",
-      "Value": "Seadra"
+      "Value": "Сидра"
     },
     {
       "Key": "goldeen",
-      "Value": "Goldeen"
+      "Value": "Голдин"
     },
     {
       "Key": "seaking",
-      "Value": "Seaking"
+      "Value": "Сикинг"
     },
     {
       "Key": "staryu",
-      "Value": "Staryu"
+      "Value": "Старью"
     },
     {
       "Key": "starmie",
-      "Value": "Starmie"
+      "Value": "Старми"
     },
     {
       "Key": "mrMime",
-      "Value": "Mr. Mime"
+      "Value": "Мистер Майм"
     },
     {
       "Key": "scyther",
-      "Value": "Scyther"
+      "Value": "Скайтер"
     },
     {
       "Key": "jynx",
-      "Value": "Jynx"
+      "Value": "Джинкс"
     },
     {
       "Key": "electabuzz",
-      "Value": "Electabuzz"
+      "Value": "Электробазз"
     },
     {
       "Key": "magmar",
-      "Value": "Magmar"
+      "Value": "Магмар"
     },
     {
       "Key": "pinsir",
-      "Value": "Pinsir"
+      "Value": "Пинсир"
     },
     {
       "Key": "tauros",
-      "Value": "Tauros"
+      "Value": "Торос"
     },
     {
       "Key": "magikarp",
-      "Value": "Magikarp"
+      "Value": "Мэджикарп"
     },
     {
       "Key": "gyarados",
-      "Value": "Gyarados"
+      "Value": "Гаярдос"
     },
     {
       "Key": "lapras",
-      "Value": "Lapras"
+      "Value": "Лапрас"
     },
     {
       "Key": "ditto",
-      "Value": "Ditto"
+      "Value": "Дитто"
     },
     {
       "Key": "eevee",
-      "Value": "Eevee"
+      "Value": "Иви"
     },
     {
       "Key": "vaporeon",
-      "Value": "Vaporeon"
+      "Value": "Вапореон"
     },
     {
       "Key": "jolteon",
-      "Value": "Jolteon"
+      "Value": "Джолтеон"
     },
     {
       "Key": "flareon",
-      "Value": "Flareon"
+      "Value": "Флареон"
     },
     {
       "Key": "porygon",
-      "Value": "Porygon"
+      "Value": "Поригон"
     },
     {
       "Key": "omanyte",
-      "Value": "Omanyte"
+      "Value": "Оманайт"
     },
     {
       "Key": "omastar",
-      "Value": "Omastar"
+      "Value": "Омастар"
     },
     {
       "Key": "kabuto",
-      "Value": "Kabuto"
+      "Value": "Кабуто"
     },
     {
       "Key": "kabutops",
-      "Value": "Kabutops"
+      "Value": "Кабутопс"
     },
     {
       "Key": "aerodactyl",
-      "Value": "Aerodactyl"
+      "Value": "Аэродактиль"
     },
     {
       "Key": "snorlax",
-      "Value": "Snorlax"
+      "Value": "Снорлакс"
     },
     {
       "Key": "articuno",
-      "Value": "Articuno"
+      "Value": "Артикуно"
     },
     {
       "Key": "zapdos",
-      "Value": "Zapdos"
+      "Value": "Запдос"
     },
     {
       "Key": "moltres",
-      "Value": "Moltres"
+      "Value": "Молтрес"
     },
     {
       "Key": "dratini",
-      "Value": "Dratini"
+      "Value": "Дратини"
     },
     {
       "Key": "dragonair",
-      "Value": "Dragonair"
+      "Value": "Драгонэйр"
     },
     {
       "Key": "dragonite",
-      "Value": "Dragonite"
+      "Value": "Драконит"
     },
     {
       "Key": "mewtwo",
-      "Value": "Mewtwo"
+      "Value": "Мьюту"
     },
     {
       "Key": "mew",
-      "Value": "Mew"
+      "Value": "Мью"
     }
   ],
   "PokemonMovesetStrings": [

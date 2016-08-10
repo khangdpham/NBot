@@ -2,111 +2,83 @@
   "TranslationStrings": [
     {
       "Key": "pokeball",
-      "Value": "Poké Ball"
+      "Value": "Pokélabda"
     },
     {
       "Key": "greatPokeball",
-      "Value": "Great Ball"
+      "Value": "Szuper pokélabda"
     },
     {
       "Key": "ultraPokeball",
-      "Value": "Ultra Ball"
+      "Value": "Ultra pokélabda"
     },
     {
       "Key": "masterPokeball",
-      "Value": "Master Ball"
+      "Value": "Mester pokélabda"
     },
     {
       "Key": "wrongAuthType",
-      "Value": "\"auth.json\" dosyası içindeki \"AuthType\" değeri geçersiz."
-    },
-    {
-      "Key": "loginInvalid",
-      "Value": "Giriş başarısız oldu. Kullanıcı bilgileri yanlış."
+      "Value": "Ismeretlen azonosítási mód van megadva a config.json fájlban"
     },
     {
       "Key": "farmPokestopsOutsideRadius",
-      "Value": "Mevcut konum, tanımlanan yarıçapın dışında kalıyor! 5 saniye sonra {0}m'lik mesafeye yürümeye başlanacak. \"LastPos.ini\" dosyasındaki mevcut konum doğru mu?"
+      "Value": "Kívül vagy a megadott maximális távolságon! Séta az induláshoz ({0}méterre) 5 másodperc múlva. A Coords.ini fájlod rendben van?"
     },
     {
       "Key": "farmPokestopsNoUsableFound",
-      "Value": "Bu alanda uygun PokéStop bulunamadı. \"MaxTravelDistanceInMeters\" değeri çok küçük olabilir."
+      "Value": "Nincs használható pokéstop a környéken. Talán a megadott maximális távolságod túl kicsi??"
     },
     {
       "Key": "eventFortUsed",
-      "Value": "İsim: {0} XP: {1}, Taşlar: {2}, Eşyalar: {3}, Enlem: {4}, Boylam: {5}"
+      "Value": "Név: {0} Tapasztalat: {1}, Drágakövek: {2}, tárgyak: {3}"
     },
     {
       "Key": "eventFortFailed",
-      "Value": "İsim: {0} BİLGİ: Eşya toplama başarısız oldu. Soft ban yemiş olabilirsiniz. Ban açılıyor: {1}/{2}"
+      "Value": "Név: {0} INFO: Lootolás sikertelen, lehetséges softban. Feloldás: {1}/{2} másodperc múlva"
     },
     {
       "Key": "eventFortTargeted",
-      "Value": "{1}m mesafedeki \"{0}\" PokéStop'una {2} saniye sonra varılacak."
+      "Value": "Érkezés pokéstopphoz: {0} ({1}m)"
     },
     {
       "Key": "eventProfileLogin",
-      "Value": "Kullanıcı Adı: {0}"
-    },
-    {
-      "Key": "eventUsedIncense",
-      "Value": "Tütsü(Incense) kullanıldı. Kalan süre: {0}"
+      "Value": "Játék mint {0}"
     },
     {
       "Key": "eventUsedLuckyEgg",
-      "Value": "Şanslı Yumurta(Lucky Egg) kullanıldı. Kalan süre: {0}"
+      "Value": "Szerencsetojás aktiválva, Hátralévő idő: {0} perc"
     },
     {
       "Key": "eventPokemonEvolvedSuccess",
-      "Value": "{0} | {1}XP kazanıldı."
+      "Value": "{0} fejlesztve, kaptál {1}xp"
     },
     {
       "Key": "eventPokemonEvolvedFailed",
-      "Value": "{0} başarısız oldu. Sonuç {1}. {2} geliştirme(evolve) durduruluyor."
+      "Value": "Sikertelen {0}. Az eredmény {1}, fejlesztés befejezése {2}"
     },
     {
       "Key": "eventPokemonTransferred",
-      "Value": "{0}\t- CP: {1}  IV: {2}%   [En iyi CP: {3}  IV: {4}%]   Şeker(Candy): {5}"
+      "Value": "{0}\t- CP: {1}  IV: {2}%   [Legjobb CP: {3}  IV: {4}%] (cukorkák: {5})"
     },
     {
       "Key": "eventItemRecycled",
-      "Value": "{0} tane {1}"
+      "Value": "{0}x {1}"
     },
     {
       "Key": "eventPokemonCaptureSuccess",
-      "Value": "({0}) | ({1}) {2} Lvl: {3} CP: ({4}/{5}) IV: {6}% | Yakalama Şansı: {7}% | Mesafe: {8}m | {9} kullanıldı ({10} tane kaldı) | {11}XP kazanıldı | {12} | Enlem: {13} Boylam: {14}"
+      "Value": "({0}) | ({1}) {2} Lvl: {3} CP: ({4}/{5}) IV: {6}% | Esély: {7}% | {8}m távolságra | with a {9} ({10} maradt). | {11} kapott EXP | {12} | szél.: {13} hossz.: {14}"
     },
     {
       "Key": "eventPokemonCaptureFailed",
-      "Value": "({0}) | ({1}) {2} Lvl: {3} CP: ({4}/{5}) IV: {6}% | Yakalama Şansı: {7}% | Mesafe: {8}m | {9} kullanıldı ({10} tane kaldı) | Enlem: {11} Boylam: {12}"
+      "Value": "({0}) | ({1}) {2} Lvl: {3} CP: ({4}/{5}) IV: {6}% | Esély: {7}% | {8}m távolságra | with a {9} ({10} maradt). | szél.: {11} hossz.: {12}"
     },
     {
       "Key": "eventNoPokeballs",
-      "Value": "Poké topu kalmadı. - Kaçırılan Pokémon: {0} (CP: {1})"
-    },
-    {
-      "Key": "waitingForMorePokemonToEvolve",
-      "Value": "{0} Pokémon geliştirilmeyi(evolve) bekliyor! {1} Pokémon daha yakalandığında Pokémon taşıma limitinin {4}%'i dolacak. ({2}/{3})"
-    },
-    {
-      "Key": "useLuckyEggsMinPokemonAmountTooHigh",
-      "Value": "\"UseLuckyEggsMinPokemonAmount\" değeri {0} olarak ayarlanmış ve çok yüksek. {1}'den küçük bir değer girilmesi lazım."
-    },
-    {
-      "Key": "catchMorePokemonToUseLuckyEgg",
-      "Value": "Şanslı Yumurta(Lucky Egg) kullanılması için {0} Pokémon daha yakalanması gerekiyor."
-    },
-    {
-      "Key": "eventUseBerry",
-      "Value": "{0} kullanıldı | {1} tane kaldı"
-    },
-    {
-      "Key": "itemRazzBerry",
-      "Value": "Böğürtlen(Razz Berry)"
+      "Value": "Elfogytak a pokélabdák - Elvesztetve {0} CP: {1}"
     },
     {
       "Key": "catchStatusAttempt",
-      "Value": "{0} Deneme #{1}"
+      "Value": "{0} Próbálkozás #{1}"
     },
     {
       "Key": "catchStatus",
@@ -114,67 +86,67 @@
     },
     {
       "Key": "candies",
-      "Value": "Şeker(Candy): {0}"
+      "Value": "Cukorkák: {0}"
     },
     {
       "Key": "unhandledGpxData",
-      "Value": "GPX dosyasında işlenemeyen veri bulundu. Atlanıyor."
+      "Value": "Nem kezelt adat a GPX fájlban, kihagyás."
     },
     {
       "Key": "displayHighestsHeader",
-      "Value": "Pokémonlar"
+      "Value": "Pokémonok"
     },
     {
       "Key": "commonWordPerfect",
-      "Value": "IV"
+      "Value": "tökéletes"
     },
     {
       "Key": "commonWordName",
-      "Value": "İSİM"
+      "Value": "név"
     },
     {
       "Key": "commonWordUnknown",
-      "Value": "?"
+      "Value": "Ismeretlen"
     },
     {
       "Key": "displayHighestsCpHeader",
-      "Value": "Savaş Puanı(CP) En Yüksek Pokémonlar"
+      "Value": "Legmagasabb CP megjelenítése"
     },
     {
       "Key": "displayHighestsPerfectHeader",
-      "Value": "Mükemmelliği(IV) En Yüksek Pokémonlar"
+      "Value": "A legjobb megjelenítése"
     },
     {
       "Key": "displayHighestsLevelHeader",
-      "Value": "Seviyesi(Level) En Yüksek Pokémonlar"
+      "Value": "A legmagasabb szintű megjelenítése"
     },
     {
       "Key": "welcomeWarning",
-      "Value": "Varsayılan enlem(DefaultLatitude) ve boylam(DefaultLongitude) değerlerinin doğrulundan emin olun. Aksi halde programı kapatın! Enlem: {0} Boylam: {1}"
+      "Value": "Győződj meg róla hogy a szélesség és a hosszúság helyes-e. Zárd be a programot ha nem! Szélesség: {0} Hosszúság: {1}"
     },
     {
       "Key": "incubatorPuttingEgg",
-      "Value": "Kuluçka makinesine(Incubator) Yumurta(Egg) yerleştirildi: {0:0.00}km kaldı"
+      "Value": "Tojás behelyezése az inkubátorba: {0:0.00}km maradt"
     },
     {
       "Key": "incubatorStatusUpdate",
-      "Value": "Kuluçka makinesi(Incubator) durum güncellemesi: {0:0.00}km kaldı"
+      "Value": "Inkubátor állapot frissítése: {0:0.00}km maradt"
     },
     {
       "Key": "incubatorEggHatched",
-      "Value": "Kuluçka makinesindeki(Incubator) Yumurta(Egg) çatladı: Çıkan Pokémon: {0} | Lvl: {1} CP: ({2}/{3}) IV: {4}%"
+      "Value": "Az inkubált tojás kikelt: {0} | Lvl: {1} CP: ({2}/{3}) IV: {4}%"
     },
     {
       "Key": "logEntryError",
-      "Value": "HATA"
+      "Value": "HIBA"
     },
     {
       "Key": "logEntryAttention",
-      "Value": "DİKKAT"
+      "Value": "FIGYELEM"
     },
     {
       "Key": "logEntryInfo",
-      "Value": "BİLGİ"
+      "Value": "INFO"
     },
     {
       "Key": "logEntryPokestop",
@@ -182,487 +154,315 @@
     },
     {
       "Key": "logEntryFarming",
-      "Value": "GENEL"
-    },
-    {
-      "Key": "logEntrySniper",
-      "Value": "KESKİN NİŞANCI"
+      "Value": "FARMOLÁS"
     },
     {
       "Key": "logEntryRecycling",
-      "Value": "ATILIYOR"
+      "Value": "KIDOBÁS"
     },
     {
-      "Key": "logEntryPKMN",
-      "Value": "POKÉMON"
+      "Key": "logEntryPkmn",
+      "Value": "PKMN"
     },
     {
       "Key": "logEntryTransfered",
-      "Value": "AKTARILDI"
+      "Value": "TOVÁBBÍTVA A PROFNAK"
     },
     {
       "Key": "logEntryEvolved",
-      "Value": "GELİŞTİRİLDİ"
+      "Value": "FEJLESZTVE"
     },
     {
       "Key": "logEntryBerry",
-      "Value": "BÖĞÜRTLEN"
+      "Value": "MÁLNA"
     },
     {
       "Key": "logEntryEgg",
-      "Value": "YUMURTA"
+      "Value": "TOJÁS"
     },
     {
       "Key": "logEntryDebug",
-      "Value": "HATA AYIKLAMA"
+      "Value": "HIBAKERESÉS"
     },
     {
       "Key": "logEntryUpdate",
-      "Value": "GÜNCELLEME"
-    },
-    {
-      "Key": "logEntryNew",
-      "Value": "YENİ"
-    },
-    {
-      "Key": "logEntrySoftBan",
-      "Value": "SOFT BAN"
+      "Value": "FRISSÍTÉS"
     },
     {
       "Key": "loggingIn",
-      "Value": "{0} hesabı ile oturum açılıyor..."
+      "Value": "Bejelentkezés {0}"
     },
     {
       "Key": "ptcOffline",
-      "Value": "PTC sunucuları yanıt vermiyor ya da kullanıcı bilgileri yanlış olabilir. Google hesabı ile deneyin."
-    },
-    {
-      "Key": "accessTokenExpired",
-      "Value": "PTC oturumu sonlandı. Tekrar oturum açılıyor..."
-    },
-    {
-      "Key": "invalidResponse",
-      "Value": "Niantic sunucuları tepki vermiyor."
+      "Value": "A PTC szerverek leálltak VAGY az adataid hibásak. Próbáld meg Google-al"
     },
     {
       "Key": "tryingAgainIn",
-      "Value": "{0} saniye içinde tekrar denenecek..."
+      "Value": "Újrapróbálkozás {0} másodperc múlva..."
     },
     {
       "Key": "accountNotVerified",
-      "Value": "Hesap doğrulanmamış! Program kapatılıyor..."
+      "Value": "A fiók nincs megereősítve! Érdekes..."
     },
     {
       "Key": "openingGoogleDevicePage",
-      "Value": "Google Device sayfası açılıyor. Doğrulama kodunu Ctrl+V kullanarak yapıştırın."
+      "Value": "A Google eszköz oldalának megnyitása. Másold be a kódot CTRL+V"
     },
     {
       "Key": "couldntCopyToClipboard",
-      "Value": "Doğrulama kodu panoya kopyalanamadı. Lütfen kodu elle yazın."
+      "Value": "Nem lehet másolni a vágólapra, csináld manuálisan"
     },
     {
       "Key": "couldntCopyToClipboard2",
-      "Value": "\"{0}\" adresine gidin ve \"{1}\" kodunu girin."
+      "Value": "Látogasd meg: {0} & enter {1}"
     },
     {
       "Key": "realisticTravelDetected",
-      "Value": "Gerçekçi gezinme algılandı. \"config.json\" içindeki varsayılan ayarlar kullanılıyor."
+      "Value": "Realisztikus mozgás észlelve , A UserSettings.settings felhasználásával"
     },
     {
       "Key": "notRealisticTravel",
-      "Value": "{0} konumunda gerçekçi gezinme geçerli değil. \"LastPos.ini\" dosyasındaki son kaydedilen koordinatlar kullanılıyor."
+      "Value": "Teleportálás {0}, felhasználva az utolsó Coords.ini fájlt"
     },
     {
       "Key": "coordinatesAreInvalid",
-      "Value": "\"LastPos.ini\" dosyasındaki koordinatlar geçerli değil. Varsayılan koordinatlar kullanılıyor."
+      "Value": "A koordináták a \"Coords.ini\" fájlban érvénytelen, alapértelmezett koordináta használata"
     },
     {
       "Key": "gotUpToDateVersion",
-      "Value": "Harika! En güncel sürüm kullanılıyor. ({0})"
+      "Value": "Remek! Már a legújabb verziót futtatod! {0}"
     },
     {
       "Key": "autoUpdaterDisabled",
-      "Value": "Otomatik güncelleme kapalı. Son sürümü indirmek için: {0}\n"
+      "Value": "Automatikus frissítés kikapcsolva. Töltsd le a legújabb verziót: {0}\n "
     },
     {
       "Key": "downloadingUpdate",
-      "Value": "Güncelleme indiriliyor..."
+      "Value": "Frissítés letöltése és telepítése..."
     },
     {
       "Key": "finishedDownloadingRelease",
-      "Value": "İndirme tamamlandı..."
+      "Value": "Legújabb verzió letöltve..."
     },
     {
       "Key": "finishedUnpackingFiles",
-      "Value": "Güncelleme paketten çıkarılıyor..."
+      "Value": "A fájlok kicsomagolása befejeződött..."
     },
     {
-      "Key": "FinishedTransferringConfig",
-      "Value": "Ayar dosyası(config.json) yeni sürüme aktarılıyor..."
+      "Key": "finishedTransferringConfig",
+      "Value": "A konfigurációd áthelyezve az új verzióba..."
     },
     {
       "Key": "updateFinished",
-      "Value": "Güncelleme tamamlandı. Bu pencereyi kapatabilirsiniz."
+      "Value": "Frissítés befejeződött, bezárhatod ezt az ablakot."
     },
     {
       "Key": "lookingForIncensePokemon",
-      "Value": "Tütsü(Incense) Pokémon'u aranıyor..."
+      "Value": "Pokémon keresése füstölővel..."
     },
     {
       "Key": "lookingForPokemon",
-      "Value": "Pokémon aranıyor..."
+      "Value": "Pokémonok keresése..."
     },
     {
       "Key": "lookingForLurePokemon",
-      "Value": "Yem(Lure) Pokémon'u aranıyor..."
+      "Value": "Aktív Lure modul, pokémonok keresése..."
     },
     {
       "Key": "pokemonSkipped",
-      "Value": "{0} atlandı."
+      "Value": "Kihagyva {0}"
     },
     {
       "Key": "zeroPokeballInv",
-      "Value": "Poké topu kalmadı. Daha fazla Pokémon yakalanamaz!"
+      "Value": "Nincs pokélabda a táskádban, nem tudsz több pokémont elfogni!"
     },
     {
       "Key": "currentPokeballInv",
-      "Value": "Poké Ball: {0} | Great Ball: {1} | Ultra Ball: {2} | Master Ball: {3}"
+      "Value": "Pokélabdák: {0} | Szuper pokélabdák: {1} | Ultra pokélabdák: {2} | Mester pokélabdák: {3}"
     },
     {
-      "Key": "currentPotionInv",
-      "Value": "Potion: {0} | Super Potion: {1} | Hyper Potion: {2} | Max Potion: {3}"
+      "Key": "CurrentPotionInv",
+      "Value": "Főzetek: {0} | Szuper főzetek: {1} | Hiper főzetek: {2} | Maximum főzeteks: {3}"
     },
     {
-      "Key": "currentReviveInv",
-      "Value": "Revive: {0} | Max Revive: {1}"
+      "Key": "CurrentReviveInv",
+      "Value": "Újraélesztő: {0} | Maximum újraélesztő: {1}"
     },
     {
-      "Key": "currentMiscItemInv",
-      "Value": "Razz Berry: {0} | Incense: {1} | Lucky Egg: {2} | Lure Module: {3}"
+      "Key": "CurrentMiscItemInv",
+      "Value": "Málnák: {0} | Vonzók: {1} | Szerencsetojások: {2} | Csalik: {3}"
     },
     {
-      "Key": "maxItemsCombinedOverMaxItemStorage",
-      "Value": "[Geçersiz Ayar] Tüm eşyaların toplamı (Pokétopları+Potionlar+Revivelar={0}) taşınabilecek eşya limitinden ({1}) daha fazla olamaz."
+      "Key": "checkingForBallsToRecycle",
+      "Value": "Pokélabdák keresése kidobáshoz {0} megtartva"
     },
     {
-      "Key": "recyclingQuietly",
-      "Value": "Sessizce atılıyor..."
+      "Key": "checkingForPotionsToRecycle",
+      "Value": "Főzetek keresése kidobáshoz {0} megtartva"
+    },
+    {
+      "Key": "checkingForRevivesToRecycle",
+      "Value": "Újraélesztők keresése kidobáshoz {0} megtartva"
+    },
+    {
+      "Key": "pokeballsToKeepIncorrect",
+      "Value": "A maximális pokélabdák száma hibásan lett megadva. A megadott szám kisebb mint 1."
+    },
+    {
+      "Key": "potionsToKeepIncorrect",
+      "Value": "A főzetek maximális száma hibásan lett megadva. A megadott szám kisebb mint 1."
+    },
+    {
+      "Key": "revivesToKeepIncorrect",
+      "Value": "Az újraélesztők maximális száma hibásan lett megadva. A megadott szám kisebb mint 1."
     },
     {
       "Key": "invFullTransferring",
-      "Value": "Taşınabilecek Pokémon limiti doldu! Pokémonlar aktarılıyor..."
+      "Value": "A pokémon tárhely megtelt, pokémonok továbbítása a professzornak..."
     },
     {
       "Key": "invFullTransferManually",
-      "Value": "Taşınabilecek Pokémon limiti doldu! Pokémonları elle aktararak yer açın ya da ayarlardan \"TransferDuplicatePokemon\" değerini \"true\" yapın."
+      "Value": "A pokémon tárhely megtelt! TOvábbíts pokémonokat manuálisan a professzornak vagy állítsd a TransferDuplicatePokemon értékét true-ra a beállításokban..."
     },
     {
       "Key": "invFullPokestopLooting",
-      "Value": "Taşınabilecek eşya limiti doldu! Hiçbir eşya alınamadı!"
+      "Value": "A hátizsák megtelt, nincs új tárgy!"
     },
     {
       "Key": "encounterProblem",
-      "Value": "Pokémon yakalarken bir sorunla karşılaşıldı: {0}"
+      "Value": "Elfogási probléma: {0}"
     },
     {
       "Key": "encounterProblemLurePokemon",
-      "Value": "Yem(Lure) Pokémon'u yakalarken bir sorunla karşılaşıldı: {0}"
+      "Value": "Elfogási probléma: Lure pokémon {0}"
     },
     {
       "Key": "desiredDestTooFar",
-      "Value": "Hedeflenen konum ({0}, {1}) geçerli konuma ({2}, {3}) çok uzak."
+      "Value": "A megadott célállomásod {0}, {1} túl messze van a jelenlegi pozíciódtól {2}, {3}"
     },
     {
       "Key": "pokemonRename",
-      "Value": "{0} ({1}) | Pokémon'un ismi değiştirildi. (\"{2}\" -> \"{3}\")"
-    },
-    {
-      "Key": "pokemonFavorite",
-      "Value": "{1} IV:{0}% CP:{2} | Pokémon *favorilere* eklendi."
+      "Value": "Pokémon {0} ({1}) átnevezve erről: {2} erre: {3}."
     },
     {
       "Key": "pokemonIgnoreFilter",
-      "Value": "[Pokémon Yakalamama Filtresi] - {0} ayarlarda belirtildiği üzere yakalanmadı."
+      "Value": "[Mellőzendő pokémonok] - Mellőzve: {0} ahogy a beállításokban megadtad"
     },
     {
       "Key": "catchStatusAttempt",
-      "Value": "Yakalama: Deneme"
+      "Value": "Elfogási kísérlet"
     },
     {
       "Key": "catchStatusError",
-      "Value": "Yakalama: Hata"
+      "Value": "Elfogási hibar"
     },
     {
       "Key": "catchStatusEscape",
-      "Value": "Yakalama: Toptan Çıktı"
+      "Value": "Sikertelen elfogás"
     },
     {
       "Key": "catchStatusFlee",
-      "Value": "Yakalama: Kaçtı"
+      "Value": "Megszökött"
     },
     {
       "Key": "catchStatusMissed",
-      "Value": "Yakalama: Iskalandı"
+      "Value": "Elfogás kihagyva"
     },
     {
       "Key": "catchStatusSuccess",
-      "Value": "Yakalama: Başarılı"
+      "Value": "Sikeres elfogás"
     },
     {
       "Key": "catchTypeNormal",
-      "Value": "Normal"
+      "Value": "Normál"
     },
     {
       "Key": "catchTypeLure",
-      "Value": "Yem(Lure)"
+      "Value": "Lure modul"
     },
     {
       "Key": "catchTypeIncense",
-      "Value": "Tütsü(Incense)"
+      "Value": "Füstölő"
     },
     {
       "Key": "webSocketFailStart",
-      "Value": "webSocketServer {0} portunda çalıştırılamadı."
+      "Value": "WebSocketServer indítása sikertelen a {0} porton"
     },
     {
       "Key": "statsTemplateString",
-      "Value": "{0} - Süre {1} - Seviye: {2} | XP/SA: {3:n0} | P/SA: {4:n0} | Stardust: {5:n0} | Aktarılan Pokémon: {6:n0} | Atılan Eşya: {7:n0}"
-    },
-    {
-      "Key": "profileStatsTemplateString",
-      "Value": "----- SEVİYE {0} | {1} ----- \n Tecrübe(XP): {2}/{3} \n Yakalanan Pokémon: {4} \n Karşılaşılan Pokémon: {5} \n Ziyaret Edilen Pokéstop: {6} \n Çatlatılan Yumurta(Egg): {7} \n Geliştirilen(Evolve) Pokémon: {8} \n Pokédex Kayıtları: {9} \n Yürünen Mesafe: {10}km  \n Pokémonlar: {11}/{12}"
-    },
-    {
-      "Key": "showPokeTemplate",
-      "Value": "\n CP: {0} | IV: {1}% | İsim: {2}"
-    },
-    {
-      "Key": "helpTemplate",
-      "Value": "Komutlar: \n \n /top <cp/iv> <sayı> - En iyi Pokémonları gösterir. \n /all <cp/iv> - Bütün Pokémonları gösterir. \n /profile - Profili gösterir. \n /loc - Konumu gösterir. \n /items - Eşyaları gösterir. \n /status - Bot durumunu gösterir. \n /pokedex - Pokédex'i gösterir."
+      "Value": "{0} - Futás idő {1} - Lvl: {2} | EXP/H: {3:n0} | P/H: {4:n0} | Csillagpor: {5:n0} | Továbbítva: {6:n0} | Kidobva: {7:n0} Fordította: SkayRedux"
     },
     {
       "Key": "statsXpTemplateString",
-      "Value": "{0} (Sonraki seviye: {1}sa {2}dk | {3:n0}/{4:n0} XP)"
+      "Value": "{0} (Futás idő {1}h {2}m | {3:n0}/{4:n0} XP)"
     },
     {
       "Key": "requireInputText",
-      "Value": "Devam etmek için bir tuşa basın..."
+      "Value": "Nyomj meg egy gombot az indításhoz..."
     },
     {
       "Key": "googleTwoFactorAuth",
-      "Value": "\"Google İki Aşamalı Doğrulama\" etkinleştirilmiş olduğundan dolayı \"auth.json\" dosyasına uygulamaya özel şifrenin eklenmesi gerekiyor."
+      "Value": "Hogyha van Google 2 tényezős hitelesítésed engedélyezve, be kell illesztened egy alkalmazás által meghatározott kódot az auth.json fájlba"
     },
     {
       "Key": "googleTwoFactorAuthExplanation",
-      "Value": "\"Google Uygulama Şifreleri\" sayfası açılıyor. Lütfen yeni bir uygulama şifresi oluşturun. (Aygıt olarak \"Diğer\" seçeneğini seçin.)"
+      "Value": "Google alkalmazás jelszavak megnyitása. Adj meg új alkalmazás jelszót (használd az újat felhasználóként)"
     },
     {
       "Key": "googleError",
-      "Value": "Google mail adresinizi ve şifrenizi doğru girdiğinizden emin olun."
+      "Value": "Győződj meg róla hogy a helyes e-mail és jelszót adtad-e meg."
     },
     {
       "Key": "googleOffline",
-      "Value": "Google sunucuları şu an yanıt vermiyor. Daha sonra tekrar deneyin."
+      "Value": "A Google szerverek valószínűleg túlterheltek vagy leálltak, légy türelmes és próbáld újra később."
     },
     {
       "Key": "missingCredentialsGoogle",
-      "Value": "\"auth.json\" dosyasına GoogleUsername ve GooglePassword değerlerini girmeniz gerekiyor!"
+      "Value": "Ki kell töltened a GoogleUsername és GooglePassword sorokat az auth.json fájlban!"
     },
     {
       "Key": "missingCredentialsPtc",
-      "Value": "\"auth.json\" dosyasına PtcUsername ve PtcPassword değerlerini girmeniz gerekiyor!"
+      "Value": "Ki kell töltened PtcUsername és PtcPassword sorokat az auth.json fájlban!"
     },
     {
       "Key": "snipeScan",
-      "Value": "{0} konumunda nişan alınacak Pokémon aranıyor..."
+      "Value": "[Kereső] Pokémonok keresése itt: {0}..."
     },
     {
       "Key": "snipeScanEx",
-      "Value": "{2} konumunda nişan alınan Pokémon: {0} (IV: {1}%)"
+      "Value": "[Kereső] {0} keresése {1} -vel/-val IV itt: {2}..."
     },
     {
       "Key": "noPokemonToSnipe",
-      "Value": "Bu konumda nişan alınacak Pokémon bulunamadı! Süresi dolmuş olabilir."
+      "Value": "[Kereső] Nincs pokémon a kereséshez!"
     },
     {
       "Key": "notEnoughPokeballsToSnipe",
-      "Value": "Keskin nişancılık için yeterli Poké topu yok! ({0}/{1})"
+      "Value": "Túl kevés pokélabda a kereséshez! ({0}/{1})"
     },
     {
-      "Key": "displayHighestMOVE1Header",
-      "Value": "SALDIRI-1"
+      "Key": "displayHighestMove1Header",
+      "Value": "Támadás"
     },
     {
-      "Key": "displayHighestMOVE2Header",
-      "Value": "SALDIRI-2"
-    },
-    {
-      "Key": "displayHighestCandy",
-      "Value": "Şeker(Candy)"
-    },
-    {
-      "Key": "iPBannedError",
-      "Value": "Bağlantı sağlanamadı. IP'niz Niantic tarafından kara listeye alınmış olabilir. Program kapatılıyor..."
-    },
-    {
-      "Key": "noEggsAvailable",
-      "Value": "Elinizde hiç Yumurta(Egg) kalmadı."
-    },
-    {
-      "Key": "useLuckyEggActive",
-      "Value": "Şanslı Yumurta(Lucky Egg) zaten aktif durumda."
-    },
-    {
-      "Key": "usedLuckyEgg",
-      "Value": "Şanslı Yumurta(Lucky Egg) kullanıldı."
-    },
-    {
-      "Key": "useLuckyEggAmount",
-      "Value": "Elinizde kullanabileceğiniz {0} adet Şanslı Yumurta(Lucky Egg) var."
-    },
-    {
-      "Key": "noIncenseAvailable",
-      "Value": "Elinizde hiç Tütsü(Incense) kalmadı."
-    },
-    {
-      "Key": "useIncenseActive",
-      "Value": "Tütsü(Incense) zaten aktif durumda."
-    },
-    {
-      "Key": "useIncenseAmount",
-      "Value": "Elinizde kullanabileceğiniz {0} adet Tütsü(Incense) var."
-    },
-    {
-      "Key": "usedIncense",
-      "Value": "Tütsü(Incense) kullanıldı."
-    },
-    {
-      "Key": "amountPkmSeenCaught",
-      "Value": "Karşılaşılan Pokémon Sayısı: {0}/151, Yakalanan Pokémon Sayısı: {1}/151"
-    },
-    {
-      "Key": "pkmPotentialEvolveCount",
-      "Value": "Geliştirilebilecek(evolve) Pokémon sayısı: {0}"
-    },
-    {
-      "Key": "pkmNotEnoughRessources",
-      "Value": "Elde yeterli kaynak olmadığı için Pokémon seviyesi (level up) artırılamadı."
-    },
-    {
-      "Key": "snipeServerOffline",
-      "Value": "Keskin nişancı sunucusu çevrimdışı. Atlanıyor..."
-    },
-    {
-      "Key": "firstStartPrompt",
-      "Value": "Programı ilk kez çalıştırıyorsunuz. Kuruluma başlamak ister misiniz? {0}/{1}"
-    },
-    {
-      "Key": "firstStartLanguagePrompt",
-      "Value": "Varsayılan dili değiştirmek ister misiniz? {0}/{1}"
-    },
-    {
-      "Key": "firstStartLanguageCodePrompt",
-      "Value": "Lütfen yeni bir dil kodu girin."
-    },
-    {
-      "Key": "firstStartLanguageConfirm",
-      "Value": "Dil onaylandı: {0}"
-    },
-    {
-      "Key": "promptError",
-      "Value": "[GİRDİ HATASI] Bir girdi hatası tespit edildi. Lütfen '{0}' ya da '{1}' girin."
-    },
-    {
-      "Key": "firstStartAutoGenSettings",
-      "Value": "\"auth.json\" ve \"config.json\" dosyaları otomatik olarak oluşturuldu. Programı çalıştırmadan önce elle doldurmanız gerekiyor."
-    },
-    {
-      "Key": "firstStartSetupAccount",
-      "Value": "### YENİ KULLANICI HESABI GİRİŞİ ###"
-    },
-    {
-      "Key": "firstStartSetupTypePrompt",
-      "Value": "Bir kullanıcı hesap türü seçin: {0}/{1}"
-    },
-    {
-      "Key": "firstStartSetupTypeConfirm",
-      "Value": "Seçilen kullanıcı hesap türü: {0}"
-    },
-    {
-      "Key": "firstStartSetupTypePromptError",
-      "Value": "[HATA] Girilen hesap türü yanlış. Lütfen '{0}' ya da '{1}' girin."
-    },
-    {
-      "Key": "firstStartSetupUsernamePrompt",
-      "Value": "Kullanıcı adınızı girin."
-    },
-    {
-      "Key": "firstStartSetupUsernameConfirm",
-      "Value": "Kullanıcı adı onaylandı: {0}"
-    },
-    {
-      "Key": "firstStartSetupPasswordPrompt",
-      "Value": "Şifrenizi girin."
-    },
-    {
-      "Key": "firstStartSetupPasswordConfirm",
-      "Value": "Şifre onaylandı: {0}"
-    },
-    {
-      "Key": "firstStartAccountCompleted",
-      "Value": "### KULLANICI HESABI GİRİŞİ TAMAMLANDI ###"
-    },
-    {
-      "Key": "firstStartDefaultLocationPrompt",
-      "Value": "Varsayılan konumunuzu girmek ister misiniz? {0}/{1}"
-    },
-    {
-      "Key": "firstStartDefaultLocationSet",
-      "Value": "Varsayılan konum girişi onaylandı."
-    },
-    {
-      "Key": "firstStartDefaultLocation",
-      "Value": "### VARSAYILAN KONUM GİRİŞİ ###"
-    },
-    {
-      "Key": "firstStartSetupDefaultLocationError",
-      "Value": "[HATA] Lütfen sadece DEĞER girin (Örnek: {0})"
-    },
-    {
-      "Key": "firstStartSetupDefaultLatPrompt",
-      "Value": "Lütfen bir enlem(latitude) girin. (Sağ tıklayıp yapıştırabilirsiniz.)"
-    },
-    {
-      "Key": "firstStartSetupDefaultLatConfirm",
-      "Value": "Enlem(lattitude) onaylandı: {0}"
-    },
-    {
-      "Key": "firstStartSetupDefaultLongPrompt",
-      "Value": "Lütfen bir boylam(longitude) girin. (Sağ tıklayıp yapıştırabilirsiniz.)"
-    },
-    {
-      "Key": "firstStartSetupDefaultLongConfirm",
-      "Value": "Boylam(longitude) onaylandı: {0}"
-    },
-	{
-      "Key": "firstStartSetupCompleted",
-      "Value": "### KURULUM TAMAMLANDI ###"
+      "Key": "displayHighestMove2Header",
+      "Value": "Támadás"
     },
     {
       "Key": "PokedexCatchedTelegram",
-      "Value": "--- Pokédex Yakalandı --- \n"
+      "Value":  "--- Regisztrált pokémonok a Pokédexben --- \n"  
     },
     {
       "Key": "PokedexPokemonCatchedTelegram",
-      "Value": "#{0} İsim: {1} | Yakalanan: {2} | Karşılaşılan: {3} \n"
+      "Value":  "#{0} Név: {1} | Elfogva: {2} | Látott: {3} \n"  
     },
     {
       "Key": "PokedexNeededTelegram",
-      "Value": "--- Pokédex Gerekiyor --- \n"
+      "Value":  "--- Regisztrálatlan pokémonok --- \n"  
     },
     {
       "Key": "PokedexPokemonNeededTelegram",
-      "Value": "#{0} İsim: {1} \n"
+      "Value":  "#{0} Név: {1} \n"  
     }
   ],
   "PokemonStrings": [
@@ -780,7 +580,7 @@
     },
     {
       "Key": "nidoranFemale",
-      "Value": "Nidoran♀"
+      "Value": "NidoranF"
     },
     {
       "Key": "nidorina",
@@ -792,7 +592,7 @@
     },
     {
       "Key": "nidoranMale",
-      "Value": "Nidoran♂"
+      "Value": "NidoranM"
     },
     {
       "Key": "nidorino",
@@ -996,7 +796,7 @@
     },
     {
       "Key": "farfetchd",
-      "Value": "Farfetch'd"
+      "Value": "Farfetchd"
     },
     {
       "Key": "doduo",
