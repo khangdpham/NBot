@@ -12,7 +12,7 @@
   "MaxBerriesToUsePerPokemon": 3,
   "CatchPokemon": true,
   "AutomaticallyLevelUpPokemon": false,
-  "OnlyUpgradeFavorites": true,po
+  "OnlyUpgradeFavorites": true,
   "UseLevelUpList": true,
   "AmountOfTimesToUpgradeLoop": 5,
   "GetMinStarDustForLevelUp": 5000,
