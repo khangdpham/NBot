@@ -198,7 +198,7 @@
     },
     {
       "Key": "logEntryTransfered",
-      "Value": "TRANSFERED"
+      "Value": "TRANSFERRED"
     },
     {
       "Key": "logEntryEvolved",
@@ -426,11 +426,11 @@
     },
     {
       "Key": "statsTemplateString",
-      "Value": "{0} - Runtime {1} - Lvl: {2} | EXP/H: {3:n0} | P/H: {4:n0} | Stardust: {5:n0} | Transfered: {6:n0} | Recycled: {7:n0}"
+      "Value": "{0} - Runtime {1} - Lvl: {2} | EXP/H: {3:n0} | P/H: {4:n0} | Stardust: {5:n0} | Transferred: {6:n0} | Recycled: {7:n0}"
     },
     {
       "Key": "profileStatsTemplateString",
-      "Value": "----- LVL {0} | {1} ----- \n Experience: {2}/{3} \n Pokemons caught: {4} \n Pokemons deployed: {5} \n Pokestops visited: {6} \n Eggs hatched: {7} \n Pokemons envolved: {8} \n Pokedex entries: {9} \n KM walked: {10}  \n Pokemons: {11}/{12}"
+      "Value": "----- LVL {0} | {1} ----- \n Experience: {2}/{3} \n Pokemons caught: {4} \n Pokemons deployed: {5} \n Pokestops visited: {6} \n Eggs hatched: {7} \n Pokemons evolved: {8} \n Pokedex entries: {9} \n KM walked: {10}  \n Pokemons: {11}/{12}"
     },
     {
       "Key": "showPokeTemplate",
@@ -438,7 +438,7 @@
     },
     {
       "Key": "helpTemplate",
-      "Value": "Commands: \n \n /top <cp/iv> <amount> - Shows you top Pokemons. \n /all <cp/iv> - Shows you all Pokemons. \n /profile - Shows you profile. \n /loc - Shows you location. \n /items - Shows your items. \n /status - Shows you the Status of the Bot. "
+      "Value": "Commands: \n \n /top <cp/iv> <amount> - Shows you top Pokemons. \n /all <cp/iv> - Shows you all Pokemons. \n /profile - Shows you profile. \n /loc - Shows you location. \n /items - Shows your items. \n /status - Shows you the Status of the Bot. \n /pokedex - Shows you Pokedex "
     },
     {
       "Key": "statsXpTemplateString",
@@ -482,7 +482,7 @@
     },
     {
       "Key": "noPokemonToSnipe",
-      "Value": "Did not find a Pokemon within the SnipingScanOffset!"
+      "Value": "Did not find a Pokemon within the Location, pokemon despawned?"
     },
     {
       "Key": "notEnoughPokeballsToSnipe",
@@ -651,6 +651,22 @@
     {
       "Key": "firstStartSetupCompleted",
       "Value": "### COMPLETED CONFIG SETUP ###"
+    },
+    {
+      "Key": "pokedexCatchedTelegram",
+      "Value": "--- Pokedex catched --- \n"
+    },
+    {
+      "Key": "pokedexPokemonCatchedTelegram",
+      "Value": "#{0} Name: {1} | Catched: {2} | Encountered: {3} \n"
+    },
+    {
+      "Key": "pokedexNeededTelegram",
+      "Value": "--- Pokedex needed --- \n"
+    },
+    {
+      "Key": "pokedexPokemonNeededTelegram",
+      "Value": "#{0}# Name: {1} \n"
     }
   ],
   "PokemonStrings": [
