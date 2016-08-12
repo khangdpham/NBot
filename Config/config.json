@@ -188,8 +188,8 @@
     "diglett",
     "horsea",
     "venonat",
-    "nidoranmale",
-    "nidoranfemale"
+    "nidoranMale",
+    "nidoranFemale"
   ],
   "PokemonsToLevelUp": null,
   "PokemonsToIgnore": [
